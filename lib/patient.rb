@@ -12,4 +12,9 @@ class Patient
     @appointments << appointInstance
     appointInstance
   end
+
+  def self.all
+    @@all
+  end
+  
 end
