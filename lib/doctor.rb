@@ -21,5 +21,4 @@ class Doctor
     appointInstance
   end
 
-  def patients
 end
