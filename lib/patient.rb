@@ -10,5 +10,6 @@ class Patient
     patientInstance = self
     appointInstance = Appointment.new(date, patientInstance, doctor)
     @appointments << appointInstance
+    appointInstance
   end
 end
