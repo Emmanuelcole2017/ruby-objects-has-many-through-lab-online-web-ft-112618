@@ -16,5 +16,6 @@ class Doctor
     docInstance = self
     appointInstance = Appointment.new(date, patient, docInstance)
     appointments << appointInstance
-    
+  end
+
 end
